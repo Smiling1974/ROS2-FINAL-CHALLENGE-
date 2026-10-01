@@ -23,8 +23,24 @@ INTRODUCTION:
     Designed for an unstructured environment exploration, subterranean mapping and missions where human entry is unsafe. Its primary application is collecting samples      in hard-to-reach locations and it can be used for an obstacle probing using its extendable, multi-joint front sensor payload (link4).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+## Kinematic & Geometric Modeling 
+
+ *Links and Joints: 
+ 
+• Base & Chassis: Fixed ground anchor (world), central chassis base (link0), structural structure (link1), and front box that simulates the sensor (link4). 
+
+• Articulated Mechanism: Prismatic linear joint (joint2 along X-axis) connecting link1 to link2, driving a revolute pitch joint (joint3 around Y- 
+  axis) for target actuation. 
+  
+• Wheel Suspensions & Drive: 4 independent support frame links (link7_support through link10_support) holding continuous drive wheel cylinders (link7 through link10).
+
+• Movement Limits & Visual Geometry: joint2 (Prismatic): Linear range 0.0  to 0.2 m, max effort 5.0 N, max velocity 0.1 m/s. And the joint3 (Revolute): Angular sweep -0.785 to 0.785 rad, max effort 5.0 Nm, max velocity 2.0 rad/s. 
+                                   
+• Modeled using procedural primitives (box and cylinder) rendered in neutral grey and high-contrast black materials to identify each of the different parts of the 		  robot. 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   ## Kinematic & Geometric Modeling
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 			
        
       
