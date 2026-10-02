@@ -9,8 +9,11 @@ INTRODUCTION:
  *Robot Name & Type: This robot is named the EXPLORATION ROBOT, it's a mobile robot kinda of a rover one. It's a specialized exploration platform featuring a mobile base chassis integrated with an articulated front probe mechanism.
  
  *Degrees of Freedom(DoF) & Dimensions:
+ 
        It is compact in size to access hard-to-reach areas, such as mines; it features wide rear wheels, smaller front wheels, and a claw-like mechanism for collecting         material samples that can be quite dangerous or have to be studied. 
-							It has:
+       
+						It has:
+                        
 						• 6 continuous drive wheel joints (joint7, joint8, joint9, joint10, joint11, joint12). 
 						• 1 prismatic extension joint (joint2) with a 0.0 m to 0.2 m linear stroke range. 
 						• 1 revolute tilting joint (joint3) with a limit of 0.0 to 0.2, an effort of 5.0 and a velocity of 0.1
