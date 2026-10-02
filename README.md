@@ -100,31 +100,7 @@ INTRODUCTION:
     • For doing rapid prototyping & verification workflow making an interactive GUI manipulation of kinematic limits before physical hardware deployment drastically         reduces real-world prototyping risk and mechanical failure rates.
 	• Gained expertise in constructing ROS 2 Python launch files
 
-This intensive course made me realize the importnace of keep on moving, what I mean by that? Well that always there would be something that you won't know so it's kinda interesting and funny to keep learing and by that we can innovate and create new things. I think it's quite great that you can have this kind of things so you can find out what you like and in what you are good. 
-
-
-
-	
-	
-
-
-    
-
-
-
-
-
-
-
-
-
-
-       
-      
- 
-
-
-
+This intensive course made me realize the importance of keep on moving, what I mean by that? Well that always there would be something that you won't know so it's kinda interesting and funny to keep learing and by that we can innovate and create new things. I think it's quite great that you can have this kind of things so you can find out what you like and in what you are good. 
 
 
 
