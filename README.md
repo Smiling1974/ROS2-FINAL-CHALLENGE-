@@ -76,7 +76,7 @@ INTRODUCTION:
 
 • Static Transforms: Rigid transformation links anchored from world to link0, link1, and wheel supports (joint7_support- joint12_support). This can be seen because the code has this static transformations when there are fixed  relationships between two coordinate frames that do not change over time, they stay as we tell them.
 
-• Dynamic Transforms: Active coordinate frame updates dynamically published for prismatic extension (link1 → link2), tilting movement (link2 → link3), and full 360° wheel rotations (link7-link12).Dynamic transformations are important so wee can give this kinda of movement on our robot at the same tiem we can see how the robot would be simulated on real life.
+• Dynamic Transforms: Active coordinate frame updates dynamically published for prismatic extension (link1 → link2), tilting movement (link2 → link3), and full 360° wheel rotations (link7-link12).Dynamic transformations are important so we can give this kinda of movement on our robot at the same time we can see how the robot would be simulated on real life.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
